@@ -1,10 +1,10 @@
 body {
-    background-color: #1b1b1b;
+    background-color: #eb0f0fe3;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
 }
 header {
-    background-color: #e96309;
+    background-color: #eb0f0fe3;
     color: white;
     padding: 1px;
     text-align: center;
@@ -13,7 +13,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #252525;
+    background-color: #f8e112e7;
     padding: 25px;
 }
 nav a{
@@ -24,6 +24,14 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    background-color: #e96309;
+    background-color: #f02323;
     border-radius: 5px;
+}
+footer{
+    text-align: left;
+    background-color: #ece9e9;
+    padding: 0px;
+    bottom: 0;
+    position: fixed;
+    width: 25%
 }
