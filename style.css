@@ -1,0 +1,29 @@
+body {
+    background-color: #1b1b1b;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header {
+    background-color: #e96309;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #252525;
+    padding: 25px;
+}
+nav a{
+    color: white;
+    transition: 0.5s;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #e96309;
+    border-radius: 5px;
+}
