@@ -5,9 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Display</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <form id="flexForm">
+        <div class="formulario">
+            <div class="titulo">
+                <h1>Flexbox Display</h1>
+            </div>
+            <div class="generales">
+                <label for="flexDirection">flex-direction:</label>
+                <select id="flexDirection">
+                    <option value="row">row</option>
+                    <option value="column">column</option>
+                </select>
+                <label for="justifyContent">flex-content:</label>
+                <select id="justifyContent">
+                    <option value="flex-start">flex-start</option>
+                    <option value="flex-end">flex-end</option>
+                    <option value="center">center</option>
+                    <option value="space-between">space-between</option>
+                    <option value="space-around">space-around</option>
+                    <option value="space-evenly">space-evenly</option>
+                </select>
+                <label for="alingItems">aling-items:</label>
+                <select id="alingItems">
+                    <option value="stretch">stretch</option>
+                    <option value="flex-start">flex-start</option>
+                    <option value="flex-end">flex-end</option>
+                    <option value="center">center</option>
+                    <option value="baseline">baseline</option>
+                </select>
+                <label for="flexWrap">flex-wrap:</label>
+                <select id="flexWrap">
+                    <option value="nowrap">nowrap</option>
+                    <option value="wrap">wrap</option>
+                    <option value="wrap-reverse">wrap-reverse</option>
+                </select>
+            </div>
+            <div id="flexContainer" class="container">
+                <div id="item1" class="item">Div 1</div>
+                <div id="item2" class="item">Div 2</div>
+                <div id="item3" class="item">Div 3</div>
+            </div>
+            <div class="individuales">
+                <h2>Controles para Div 1</h2>
+                <label for="widht1">width:</label>
+                <input type="text" id="widht1" placeholder="Ej. 100px">
+                <label for="widht1">height:</label>
+                <input type="text" id="height1" placeholder="Ej. 100px">
+                <label for="widht1">order:</label>
+                <input type="number" id="order1" value="0">
+                <h2>Controles para Div 2</h2>
+                <label for="widht1">width:</label>
+                <input type="text" id="widht2" placeholder="Ej. 100px">
+                <label for="widht1">height:</label>
+                <input type="text" id="height2" placeholder="Ej. 100px">
+                <label for="widht1">order:</label>
+                <input type="number" id="order2" value="0">
+                <h2>Controles para Div 3</h2>
+                <label for="widht1">width:</label>
+                <input type="text" id="widht3" placeholder="Ej. 100px">
+                <label for="widht1">height:</label>
+                <input type="text" id="height3" placeholder="Ej. 100px">
+                <label for="widht1">order:</label>
+                <input type="number" id="order3" value="0">
+            </div>
+        </div>
+    </form>
 
 <script>
     const flexForm = document.getElementById('flexForm');
