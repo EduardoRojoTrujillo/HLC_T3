@@ -1,29 +1,31 @@
 body {
-    font-family: "Doto", sans-serif;
-    background-color: rgb(208, 255, 255);
+    font-family: "Host Grotesk", sans-serif;
+    background-color: rgb(200, 252, 252);
   }
   .formulario {
-    margin-top: 1.5%;
-    margin-left: 13%; 
-    margin-right: 13%;
-    padding-left: 2%; 
-    padding-right: 2%;
-    padding-bottom: 1%;
     background-color: white; 
-    color:  rgb(0, 184, 190);
-    border-radius: 1.1%;
-    box-shadow:  0 0.1px 10px 0.1px rgb(170, 207, 207);
-  }
-  .titulo  {text-align: center;}
-  .generales {text-align: center;}
-  .container {
-    margin-top: 1.5%;
-    margin-left: 13%; 
-    margin-right: 13%;
+    color:  rgb(0, 199, 206);
+    border-radius: 1%;
+    box-shadow:  0 0.5px 10px 0.5px rgb(180, 219, 219);
+    margin-top: 2%;
+    margin-left: 15%; 
+    margin-right: 15%;
     padding-left: 2%; 
     padding-right: 2%;
     padding-bottom: 1%;
-    background-color: rgb(232, 254, 255);
   }
-  .item {}
-  .individuales {text-align: center;}
+  .titulo{
+    text-align: center;}
+  .generales {
+    text-align: center;}
+  .container {
+    background-color: rgb(236, 254, 255);
+    margin-top: 2%;
+    margin-left: 15%; 
+    margin-right: 15%;
+    padding-left: 2%; 
+    padding-right: 2%;
+    padding-bottom: 1%;
+  }
+  .individuales {
+    text-align: center;}
