@@ -2,7 +2,16 @@ body {
     font-family: "Host Grotesk", sans-serif;
     background-color: rgb(200, 252, 252);
   }
-  .formulario {
+  .title{
+    text-align: center;
+  }
+  .individuals {
+    text-align: center;
+  }
+  .generals {
+    text-align: center;
+  }
+  .form {
     background-color: white; 
     color:  rgb(0, 199, 206);
     border-radius: 1%;
@@ -14,10 +23,6 @@ body {
     padding-right: 2%;
     padding-bottom: 1%;
   }
-  .titulo{
-    text-align: center;}
-  .generales {
-    text-align: center;}
   .container {
     background-color: rgb(236, 254, 255);
     margin-top: 2%;
@@ -27,5 +32,3 @@ body {
     padding-right: 2%;
     padding-bottom: 1%;
   }
-  .individuales {
-    text-align: center;}
