@@ -11,6 +11,16 @@ body {
   .generals {
     text-align: center;
   }
+  .item {
+    background-color: rgb(180, 219, 219);
+    justify-content: center;
+    margin: 7px;
+    transition: 0.2s;
+    padding: 0px 15px 0 15px;
+}
+  .item p {
+    margin-top: 8px;
+}
   .form {
     background-color: white; 
     color:  rgb(0, 199, 206);
